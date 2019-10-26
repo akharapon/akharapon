@@ -24,3 +24,7 @@ def services(req):
 
 def index(req):
     return render(req, 'linuxapp/index.html')
+
+def linux(req):
+    return render(req, 'linuxapp/linux.html')
+
